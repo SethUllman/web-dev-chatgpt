@@ -19,10 +19,10 @@
 ## Links
 - **Project URL's**:
   - http://csci331.cs.montana.edu:3032/
-  - Seth's URL
+  - http://csci331.cs.montana.edu:3063/
 - **GitHub Repositories**:
    - https://github.com/Skeegan123/web-dev-chatgpt/
-   - Seth's URL
+   - https://github.com/SethUllman/web-dev-chatgpt/
 - **Presentation Slideshow**: https://docs.google.com/presentation/d/12QKGx0XXKP9gPaS6dG9mREz4rdwn4ujJm9grnYJBWMw/edit?usp=sharing
 
 ## Creative Objective
