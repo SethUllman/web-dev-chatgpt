@@ -23,7 +23,7 @@ export async function nameChat(chatMessage: string) {
 
         // Start the conversation run, specifying the assistant ID
         const run = await openai.beta.threads.runs.create(threadId, {
-            assistant_id: process.env.OPENAI_NAME_ASSISTANT_ID || "",
+            assistant_id: process.env.OPENAI_ASSISTANT_ID || "",
         });
 
         // Polling loop to check the status of the conversation run

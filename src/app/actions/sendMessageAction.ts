@@ -35,10 +35,13 @@ export async function sendMessageAction(chatMessage: string, user: string, threa
             });
         }
 
+        console.log("starting a run")
+        console.log(process.env.OPENAI_ASSISTANT_ID)
         // Start a new run for the assistant to process the message
         const run = await openai.beta.threads.runs.create(threadId, {
             assistant_id: process.env.OPENAI_ASSISTANT_ID || "",
         });
+        console.log(run)
 
         // Poll for the completion of the run
         let counter = 0;
